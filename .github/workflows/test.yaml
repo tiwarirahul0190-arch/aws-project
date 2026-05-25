@@ -4,9 +4,9 @@ on:
     branches:
   workflow_dispatch:
 
-Jobs:
+jobs:
   log_message:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Log
-      run: echo "This Workflow is working."
+    runs-on: ubuntu-latest
+    steps:
+    -   name: Log
+        run: echo "This Workflow is working."
