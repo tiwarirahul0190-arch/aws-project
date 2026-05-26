@@ -25,4 +25,3 @@ jobs:
 
       - name: Verify Login
         run: az account show
-        run: echo "Logging Enabled"
