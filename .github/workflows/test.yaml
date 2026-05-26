@@ -25,5 +25,5 @@ jobs:
 
       - name: Verify Login
         run: |
-        echo "Azure Auth Completed"
-        az account show
+          echo "Azure Auth Completed"
+          az account show
