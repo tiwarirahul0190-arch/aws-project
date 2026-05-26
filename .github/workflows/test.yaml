@@ -24,4 +24,6 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
       - name: Verify Login
-        run: az account show
+        run: |
+        echo "Azure Auth Completed"
+        az account show
